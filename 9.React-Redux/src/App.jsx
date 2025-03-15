@@ -1,4 +1,5 @@
 import Counter from "./pages/Counter/Counter"
+import Fruity from "./pages/Fruity/Fruity"
 
 function App() {
   return (
@@ -6,8 +7,10 @@ function App() {
       <div className="mx-auto max-w-3xl pt-10 pb-20">
         
         {/* 1. Counter app */}
-        <Counter></Counter>
-
+        {/* <Counter></Counter> */}
+   
+        {/* 2. Fruity app */}
+        <Fruity />
 
       </div>
     </div>

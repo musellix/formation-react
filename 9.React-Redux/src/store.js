@@ -5,5 +5,6 @@ import fruits from "./features/fruits"
 export const store = configureStore({
     reducer: {
         counter,
+        fruits,
     }
 })
