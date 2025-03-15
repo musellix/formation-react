@@ -1,4 +1,4 @@
-import Container from "./lessons/5.Ajouter-un-évènement-global/Container"
+import Container from "./lessons/6.Appeler-une-API/Container"
 
 function App() {
 
