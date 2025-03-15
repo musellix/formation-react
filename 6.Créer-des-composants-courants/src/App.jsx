@@ -1,10 +1,10 @@
-import Navbar from "./lessons/3.Coder-une-navbar/Navbar"
+import Validation from "./lessons/4.Validation/Validation"
 
 function App() {
 
   return (
     <div className="min-h-screen bg-slate-700 pt-10">
-      <Navbar/>
+      <Validation/>
     </div>
   )
 }
