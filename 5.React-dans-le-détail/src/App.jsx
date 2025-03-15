@@ -1,4 +1,4 @@
-import Container from "./lessons/12.useMemo/Container"
+import Container from "./lessons/13.useReducer/Container"
 
 function App() {
 
