@@ -1,4 +1,4 @@
-import Container from "./lessons/8.Utiliser-setInterval/Container"
+import Container from "./lessons/10.Comprendre-props-children/Container"
 
 function App() {
 
