@@ -21,7 +21,15 @@ export const fruitsCart = createSlice({
             }
         }, 
         removeOne: (state, action) => {
-
+            const fruit = state.cart.find(obj => obj.id === action.payload)
+            if(fruit) {
+                if(fruit.quantity === 1) {
+                    state.cart = state.cart.filter(fruit => fruit.id !== action.payload)
+                } 
+                else {
+                    fruit.quantity--;
+                }
+            }
         }
     }
 })
