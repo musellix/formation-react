@@ -1,5 +1,6 @@
 import Counter from "./pages/Counter/Counter"
 import Fruity from "./pages/Fruity/Fruity"
+import Users from "./pages/Users/Users"
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
         {/* <Counter></Counter> */}
    
         {/* 2. Fruity app */}
-        <Fruity />
+        {/* <Fruity /> */}
+
+        {/* 3. USers  */}
+        <Users />
 
       </div>
     </div>
