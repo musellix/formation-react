@@ -29,6 +29,9 @@ export function getData(action) {
         dispatch(addLoader());
         fetch("https://jsonplaceholder.typicode.com/users")
         .then(response => {
+            if(!response.ok) {
+                throw new Error("An error has occured");
+            }
             return response.json();
         })
         .then(data => dispatch(addData(data)))
